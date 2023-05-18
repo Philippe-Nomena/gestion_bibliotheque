@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>icon/book_128px.png</file>
+        <file>icon/calendar_128px.png</file>
+        <file>icon/clipboard_128px.png</file>
+        <file>icon/Delete.ico</file>
+        <file>icon/font-viewer.ico</file>
+        <file>icon/help-info.png</file>
+        <file>icon/pop-shop.ico</file>
+        <file>icon/softwarecenter.png</file>
+        <file>icon/zeal.ico</file>
+    </qresource>
+</RCC>

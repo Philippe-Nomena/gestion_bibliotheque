@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/iconn">
+        <file>icon2/downloads.ico</file>
+        <file>icon2/exe.ico</file>
+        <file>icon2/pidgin.ico</file>
+        <file>icon2/qt.ico</file>
+        <file>icon2/recycle bin (full).ico</file>
+        <file>icon2/search.ico</file>
+    </qresource>
+</RCC>

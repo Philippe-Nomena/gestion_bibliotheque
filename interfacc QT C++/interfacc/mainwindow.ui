@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>965</width>
+    <height>641</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="4" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(206, 206, 206);</string>
+            </property>
+            <property name="title">
+             <string>Detaille</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_2">
+             <item row="0" column="0">
+              <layout class="QVBoxLayout" name="verticalLayout_5">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <item>
+                  <widget class="QLabel" name="label_3">
+                   <property name="text">
+                    <string>NOM</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lineEdit_2">
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_14">
+                 <item>
+                  <widget class="QLabel" name="label_2">
+                   <property name="text">
+                    <string>NUM</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lineEdit">
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget" native="true">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(206, 206, 206);</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_5">
+             <item row="0" column="0">
+              <widget class="QFrame" name="frame">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_4">
+                <item row="1" column="0">
+                 <widget class="QPushButton" name="erg1">
+                  <property name="text">
+                   <string>ajouter</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QPushButton" name="pushButton_3">
+                  <property name="text">
+                   <string>suprimer</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0">
+                 <widget class="QPushButton" name="pushButton_4">
+                  <property name="text">
+                   <string>liste</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QPushButton" name="pushButton_2">
+                  <property name="text">
+                   <string>modifier</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_8">
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>GESTION DES LECTEURS</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QTableView" name="tableView"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <layout class="QGridLayout" name="gridLayout_10">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>GESTION DES LIVRES</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QTableView" name="tableView_2"/>
+        </item>
+        <item row="2" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <item>
+           <widget class="QWidget" name="widget_2" native="true">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(206, 206, 206);</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_9">
+             <item row="0" column="0">
+              <widget class="QFrame" name="frame_2">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_8">
+                <item row="0" column="3">
+                 <widget class="QLineEdit" name="lineEdit_numLivre"/>
+                </item>
+                <item row="1" column="3">
+                 <widget class="QLineEdit" name="lineEdit_design"/>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QLabel" name="label_7">
+                  <property name="text">
+                   <string>Date edit</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QLabel" name="label_6">
+                  <property name="text">
+                   <string>Auteur</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="3">
+                 <spacer name="horizontalSpacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="2" column="4">
+                 <widget class="QPushButton" name="pushButton_7">
+                  <property name="styleSheet">
+                   <string notr="true">padding: 10px;
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Modifier</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="label_5">
+                  <property name="text">
+                   <string>Dessigner</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="4">
+                 <widget class="QPushButton" name="pushButton_8">
+                  <property name="styleSheet">
+                   <string notr="true">padding: 10px;
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Ajouter</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="4">
+                 <widget class="QPushButton" name="pushButton_6">
+                  <property name="styleSheet">
+                   <string notr="true">padding: 10px;
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Supprimer</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="3">
+                 <widget class="QLineEdit" name="lineEdit_auteur"/>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="label_4">
+                  <property name="text">
+                   <string>Num Livre</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="4">
+                 <layout class="QVBoxLayout" name="verticalLayout_2">
+                  <item>
+                   <widget class="QPushButton" name="pushButton">
+                    <property name="styleSheet">
+                     <string notr="true">padding: 10px;
+</string>
+                    </property>
+                    <property name="text">
+                     <string>liste livre</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item row="3" column="3">
+                 <widget class="QLineEdit" name="lineEdit_date"/>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <layout class="QGridLayout" name="gridLayout_14">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_13">
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>GESTION DES PRET</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QTableView" name="tableView_3"/>
+        </item>
+        <item row="2" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_13">
+          <item>
+           <widget class="QGroupBox" name="groupBox_3">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(206, 206, 206);</string>
+            </property>
+            <property name="title">
+             <string>Detaille</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>num LIvre</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>num Lecteur</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLineEdit" name="lineEdit_numpret"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLineEdit" name="lineEdit_8"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_12">
+               <property name="text">
+                <string>date retour</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="0">
+              <widget class="QLineEdit" name="lineEdit_pret"/>
+             </item>
+             <item row="9" column="0">
+              <widget class="QLabel" name="label_11">
+               <property name="minimumSize">
+                <size>
+                 <width>45</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>date Pret</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLineEdit" name="lineEdit_7"/>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLineEdit" name="lineEdit_retour"/>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_15">
+               <property name="text">
+                <string>Num Pret</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_3" native="true">
+            <layout class="QGridLayout" name="gridLayout_13">
+             <item row="0" column="0">
+              <widget class="QFrame" name="frame_3">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_12">
+                <item row="0" column="0">
+                 <layout class="QVBoxLayout" name="verticalLayout_4">
+                  <item>
+                   <widget class="QPushButton" name="pushButton_pre">
+                    <property name="text">
+                     <string>ajouter</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_5">
+                    <property name="text">
+                     <string>Modifier</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_9">
+                    <property name="text">
+                     <string>suprimer</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="listPret">
+                    <property name="text">
+                     <string>liste pret</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_14">
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;Agency FB&quot;;
+
+background-color: rgb(206, 206, 206);
+font-size:40px;
+color:rergb(8, 33, 31)d;</string>
+      </property>
+      <property name="text">
+       <string>                                          BIBLIOTHEQUE DE L'ENS</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>965</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionfichier_lecteur"/>
+    <addaction name="actionfichier_pret"/>
+    <addaction name="actionfichier_livre"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionconsultation_d_un_ouvrage_2"/>
+   </widget>
+   <widget class="QMenu" name="menuAide">
+    <property name="title">
+     <string>Aide</string>
+    </property>
+    <addaction name="actionA_propos"/>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuAide"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionfichier_lecteur"/>
+   <addaction name="separator"/>
+   <addaction name="actionfichier_pret"/>
+   <addaction name="separator"/>
+   <addaction name="actionfichier_livre"/>
+   <addaction name="separator"/>
+   <addaction name="actionconsultation_d_un_ouvrage_2"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="actionA_propos"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionfichier_lecteur">
+   <property name="icon">
+    <iconset resource="sary.qrc">
+     <normaloff>:/new/icon/clipboard_128px.png</normaloff>:/new/icon/clipboard_128px.png</iconset>
+   </property>
+   <property name="text">
+    <string>fichier lecteur</string>
+   </property>
+  </action>
+  <action name="actionfichier_pret">
+   <property name="icon">
+    <iconset resource="sary.qrc">
+     <normaloff>:/new/icon/calendar_128px.png</normaloff>:/new/icon/calendar_128px.png</iconset>
+   </property>
+   <property name="text">
+    <string>fichier pret</string>
+   </property>
+  </action>
+  <action name="actionfichier_livre">
+   <property name="icon">
+    <iconset resource="sary.qrc">
+     <normaloff>:/new/icon/zeal.ico</normaloff>:/new/icon/zeal.ico</iconset>
+   </property>
+   <property name="text">
+    <string>fichier livre</string>
+   </property>
+  </action>
+  <action name="actionA_propos">
+   <property name="icon">
+    <iconset resource="sary2.qrc">
+     <normaloff>:/iconn/icon2/qt.ico</normaloff>:/iconn/icon2/qt.ico</iconset>
+   </property>
+   <property name="text">
+    <string>A propos...</string>
+   </property>
+  </action>
+  <action name="actionconsultation_d_un_ouvrage_2">
+   <property name="icon">
+    <iconset resource="sary2.qrc">
+     <normaloff>:/iconn/icon2/pidgin.ico</normaloff>:/iconn/icon2/pidgin.ico</iconset>
+   </property>
+   <property name="text">
+    <string>consultation d'un ouvrage</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="sary2.qrc"/>
+  <include location="sary.qrc"/>
+ </resources>
+ <connections/>
+</ui>
